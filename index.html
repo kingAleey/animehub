@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime-hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    
+
+    <!-- 1. Divide the body-tag into three parts  -->
+    
+    <!-- First part -->
+    <header>
+        <!-- here is called the "innerHTML" (space between opening and closing of any tag) -->
+        <nav>
+         <div class="container">
+            <div class="logoDiv">
+                <h2>Anime-hub</h2>
+                <small class="toppingg"> Your gateway to endless adventures</small>
+            </div>   
+          <div class="linkDiv">
+            <button class="navToggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="linkwrapper" id="linkwrapper">
+                <div><a href="#home" class="menuitem active">Home</a></div>
+                <div><a href="#series" class="menuitem">Anime List</a></div>
+                <div><a href="#contact" class="menuitem">Contact</a></div>
+                <div><a href="#join" class="menuitem">Join Us</a></div>
+            </div>
+          </div>          
+        </div>
+        </nav>
+    </header>
+
+
+    <!-- Second part -->
+    <main>
+        <section class="mainsection" id="home">
+            <div class="speedlines" aria-hidden="true"></div>
+          <div class="flexwrapper">
+            <div>
+                <p class="eyebrow">Vol. 01 — Welcome</p>
+                <h1 class="wlc">Welcome To</h1>
+                <div class="willicome">
+                    <h1 class="welcome">Anime-hub</h1>
+                <h2 class="welcome2">where anime thrives</h2>
+
+                </div>
+                
+                <h1 class="welcome3">Top Anime &amp; Manga Collection</h1>
+                
+                <p class="subintro">
+                   Anime-hub is your ultimate destination for discovering and enjoying the best anime and manga. Explore action-packed adventures, unforgettable characters, and exciting stories from your favorite series all in one place.
+                </p>
+
+                <div class="heroCtas">
+                    <a href="#series" class="btnPrimary">Browse Series</a>
+                    <a href="#join" class="btnGhost">Join Us</a>
+                </div>
+            </div>
+            <div class="heroSpacer" aria-hidden="true">
+                <div class="heroPanel">
+                    <img src="./images/Sukuna.png" alt="">
+                    <span class="panelTag">Featured</span>
+                </div>
+            </div>
+          </div>
+
+        </section>
+    </main>
+
+
+
+<!-- Services section -->
+    <section id="series">
+
+        <div class="servContainer">
+            <div class="sectionHead">
+                <p class="eyebrow">Now Streaming</p>
+                <h1 class="ourservices">Featured Anime Series</h1>
+                <p class="sectionSub">Hand-picked stories worth your binge time — drag the rows or let them roll.</p>
+            </div>
+            <div>
+
+
+    <!-- ROW 1 -->
+    <div class="servRow">
+        <div class="row1 servItemWrapper">
+
+            <!-- YOUR ORIGINAL CARDS (KEEP EXACT CONTENT) -->
+          
+
+            <div>
+                <h4 class="cardTitle">Jujutsu Kaisen</h4> 
+                <p class="msmall">Dark fantasy • Action • Supernatural</p>
+                <div class="imageDiv">
+                    <img src="./images/Sukuna.png" alt="Jujutsu Kaisen poster">
+                    <span class="cardBadge">S2 Airing</span>
+                </div>
+                <p class="msmall">
+                    Enter a world filled with curses and sorcery as Yuji Itadori joins forces with elite Jujutsu Sorcerers to battle powerful supernatural threats.
+                </p>
+                <hr>
+                <div class="cardFooter">
+                    <span class="rating">★ 8.7</span>
+                    <button class="watchBtn">Watch Now</button>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="cardTitle">My Hero Academia</h4> 
+                <p class="msmall">Superhero • Adventure • School Life</p>
+                <div class="imageDiv">
+                    <img src="./images/Izuku.png" alt="My Hero Academia poster">
+                    <span class="cardBadge">Fan Favorite</span>
+                </div>
+                <p class="msmall">
+                    Follow Izuku Midoriya's inspiring journey from a powerless dreamer to a rising hero determined to protect society.
+                </p>
+                <hr>
+                <div class="cardFooter">
+                    <span class="rating">★ 8.4</span>
+                    <button class="watchBtn">Watch Now</button>
+                </div>
+            </div>
+
+             <div>
+                <h4 class="cardTitle">Demon Slayer</h4> 
+                <p class="msmall">Action • Historical Fantasy • Adventure</p>
+                <div class="imageDiv">
+                    <img src="./images/Demonslayers.png" alt="Demon Slayer poster">
+                    <span class="cardBadge">New Season</span>
+                </div>
+                <p class="msmall">
+                    Witness breathtaking sword battles as Tanjiro fights demons.
+                </p>
+                <hr>
+                <div class="cardFooter">
+                    <span class="rating">★ 8.9</span>
+                    <button class="watchBtn">Watch Now</button>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="cardTitle">One Punch Man</h4> 
+                <p class="msmall">Comedy • Action • Superhero</p>
+                <div class="imageDiv">
+                    <img src="./images/vv.png" alt="One Punch Man poster">
+                    <span class="cardBadge">Comedy Pick</span>
+                </div>
+                <p class="msmall">
+                    Saitama defeats every enemy with a single punch.
+                </p>
+                <hr>
+                <div class="cardFooter">
+                    <span class="rating">★ 8.5</span>
+                    <button class="watchBtn">Watch Now</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- ROW 2 -->
+    <div class="servRow">
+        <div class="row2 servItemWrapper">
+
+            <!-- YOUR SAME CARDS AGAIN OR NEW ONES -->
+            <div>
+                <h4 class="cardTitle">Jujutsu Kaisen</h4> 
+                <p class="msmall">Dark fantasy • Action • Supernatural</p>
+                <div class="imageDiv">
+                    <img src="./images/Sukuna.png" alt="Jujutsu Kaisen poster">
+                    <span class="cardBadge">S2 Airing</span>
+                </div>
+                <p class="msmall">
+                    Enter a world filled with curses and sorcery as Yuji Itadori joins forces with elite Jujutsu Sorcerers to battle powerful supernatural threats.
+                </p>
+                <hr>
+                <div class="cardFooter">
+                    <span class="rating">★ 8.7</span>
+                    <button class="watchBtn">Watch Now</button>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="cardTitle">My Hero Academia</h4> 
+                <p class="msmall">Superhero • Adventure • School Life</p>
+                <div class="imageDiv">
+                    <img src="./images/Izuku.png" alt="My Hero Academia poster">
+                    <span class="cardBadge">Fan Favorite</span>
+                </div>
+                <p class="msmall">
+                    Follow Izuku Midoriya's inspiring journey from a powerless dreamer to a rising hero determined to protect society.
+                </p>
+                <hr>
+                <div class="cardFooter">
+                    <span class="rating">★ 8.4</span>
+                    <button class="watchBtn">Watch Now</button>
+                </div>
+            </div>
+
+             <div>
+                <h4 class="cardTitle">Demon Slayer</h4> 
+                <p class="msmall">Action • Historical Fantasy • Adventure</p>
+                <div class="imageDiv">
+                    <img src="./images/Demonslayers.png" alt="Demon Slayer poster">
+                    <span class="cardBadge">New Season</span>
+                </div>
+                <p class="msmall">
+                    Witness breathtaking sword battles as Tanjiro fights demons.
+                </p>
+                <hr>
+                <div class="cardFooter">
+                    <span class="rating">★ 8.9</span>
+                    <button class="watchBtn">Watch Now</button>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="cardTitle">One Punch Man</h4> 
+                <p class="msmall">Comedy • Action • Superhero</p>
+                <div class="imageDiv">
+                    <img src="./images/vv.png" alt="One Punch Man poster">
+                    <span class="cardBadge">Comedy Pick</span>
+                </div>
+                <p class="msmall">
+                    Saitama defeats every enemy with a single punch.
+                </p>
+                <hr>
+                <div class="cardFooter">
+                    <span class="rating">★ 8.5</span>
+                    <button class="watchBtn">Watch Now</button>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="cardTitle">Jujutsu Kaisen</h4> 
+                <p class="msmall">Dark fantasy • Action • Supernatural</p>
+                <div class="imageDiv">
+                    <img src="./images/Sukuna.png" alt="Jujutsu Kaisen poster">
+                    <span class="cardBadge">S2 Airing</span>
+                </div>
+                <p class="msmall">
+                    Enter a world filled with curses and sorcery as Yuji Itadori joins forces with elite Jujutsu Sorcerers to battle powerful supernatural threats.
+                </p>
+                <hr>
+                <div class="cardFooter">
+                    <span class="rating">★ 8.7</span>
+                    <button class="watchBtn">Watch Now</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Join Us section -->
+    <section id="join" class="joinSection">
+        <div class="joinContainer">
+            <p class="eyebrow">Join Us</p>
+            <h1 class="ourservices">Never Miss an Episode</h1>
+            <p class="subintro joinIntro">
+                Become part of the Anime-hub community. Get the latest episode drops, recommendations, and updates from your favorite series — straight to your inbox.
+            </p>
+            <form class="joinForm" onsubmit="return false;">
+                <input type="email" placeholder="Enter your email" class="joinInput" required>
+                <button class="joinBtn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Third part -->
+    <footer id="contact">
+        <div class="footerContainer">
+            <div class="footerTop">
+                <div class="logoDiv">
+                    <h2>Anime-hub</h2>
+                    <small class="toppingg">Your gateway to endless adventures</small>
+                </div>
+                <div class="linkwrapper footerLinks">
+                    <div><a href="#home" class="menuitem">Home</a></div>
+                    <div><a href="#series" class="menuitem">Anime List</a></div>
+                    <div><a href="#contact" class="menuitem">Contact</a></div>
+                    <div><a href="#join" class="menuitem">Join Us</a></div>
+                </div>
+            </div>
+            <hr class="footerDivider">
+            <div class="copyright">
+                <h5>Kadooh's Digital Lab.</h5>
+                <div class="poweredby">
+                    <small>&copy; 2026 Aleey.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+ <script>
+function createNetflixSlider(track, speed = 0.6, direction = 1){
+
+    let position = 0;
+    let isDragging = false;
+    let lastX = 0;
+    let velocity = 0;
+
+    const items = Array.from(track.children);
+
+    // 🔥 duplicate content for seamless loop
+    items.forEach(item => {
+        track.appendChild(item.cloneNode(true));
+    });
+
+    const halfWidth = () => track.scrollWidth / 2;
+
+    function animate(){
+        if(!isDragging){
+
+            // smooth auto movement
+            position += speed * direction + velocity;
+
+            // friction (smooth slowdown)
+            velocity *= 0.92;
+
+            const limit = halfWidth();
+
+            // 🔥 seamless wrap (NO jump, just shift)
+            if(position <= -limit){
+                position += limit;
+            }
+
+            if(position >= 0){
+                position -= limit;
+            }
+
+            track.style.transform = `translate3d(${position}px,0,0)`;
+        }
+
+        requestAnimationFrame(animate);
+    }
+
+    // ================= DRAG =================
+    track.addEventListener("mousedown", (e)=>{
+        isDragging = true;
+        lastX = e.pageX;
+        track.style.cursor = "grabbing";
+    });
+
+    track.addEventListener("mousemove", (e)=>{
+        if(!isDragging) return;
+
+        const delta = e.pageX - lastX;
+
+        position += delta;
+        velocity = delta * 0.6;
+
+        lastX = e.pageX;
+
+        track.style.transform = `translate3d(${position}px,0,0)`;
+    });
+
+    function stop(){
+        isDragging = false;
+        track.style.cursor = "grab";
+    }
+
+    track.addEventListener("mouseup", stop);
+    track.addEventListener("mouseleave", stop);
+
+    // ================= TOUCH =================
+    track.addEventListener("touchstart", (e)=>{
+        isDragging = true;
+        lastX = e.touches[0].pageX;
+    });
+
+    track.addEventListener("touchmove", (e)=>{
+        if(!isDragging) return;
+
+        const delta = e.touches[0].pageX - lastX;
+
+        position += delta;
+        velocity = delta * 0.6;
+
+        lastX = e.touches[0].pageX;
+
+        track.style.transform = `translate3d(${position}px,0,0)`;
+    });
+
+    track.addEventListener("touchend", stop);
+
+    animate();
+}
+
+// RUN BOTH ROWS
+const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+createNetflixSlider(document.querySelector(".row1"), prefersReducedMotion ? 0 : 0.6, -1);
+createNetflixSlider(document.querySelector(".row2"), prefersReducedMotion ? 0 : 0.6, 1);
+
+// ================= ACTIVE NAV LINK ON CLICK =================
+document.querySelectorAll(".menuitem").forEach(link => {
+    link.addEventListener("click", () => {
+        document.querySelectorAll(".menuitem").forEach(item => item.classList.remove("active"));
+        link.classList.add("active");
+    });
+});
+
+// ================= MOBILE NAV TOGGLE =================
+const navToggle = document.getElementById("navToggle");
+const linkwrapper = document.getElementById("linkwrapper");
+
+navToggle.addEventListener("click", () => {
+    const isOpen = linkwrapper.classList.toggle("open");
+    navToggle.classList.toggle("open");
+    navToggle.setAttribute("aria-expanded", isOpen);
+});
+
+document.querySelectorAll(".menuitem").forEach(link => {
+    link.addEventListener("click", () => {
+        linkwrapper.classList.remove("open");
+        navToggle.classList.remove("open");
+        navToggle.setAttribute("aria-expanded", "false");
+    });
+});
+</script>
+
+    
+</body>
+</html>
