@@ -318,8 +318,7 @@ header{
     font-size:2.2rem;
     color:gainsboro;
     text-shadow:0 0 15px rgba(255,77,109,.5);
-    margin-top: 8rem;
-    padding-top: 3rem;
+    margin-top: 12rem;
     font-family:var(--font-display);
     font-weight:600;
     border-left:4px solid var(--gold);
